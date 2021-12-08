@@ -590,6 +590,9 @@ case "${host}" in
   powerpcle-*-pe)
 	posix_dir=posix
 	;;
+  sh*-*-prizm*)
+	sys_dir=prizm
+	;;
   sh*-*)
 	sys_dir=sh
 	;;
